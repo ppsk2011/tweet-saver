@@ -1,0 +1,57 @@
+.flexBox{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1300px;
+    height:100vh;
+    margin:0 auto;
+    padding: 15px;
+  }
+  
+  .flexBox .board{
+    display: flex;
+    flex-direction:column ;
+    width: 100%;
+    max-width: 580px;
+    min-height: 1800px;
+    background-color:  #1DA1F2;
+    padding: 25px;
+    border-radius: 10px;
+  }
+  
+  .flexBox .board .card{
+    padding: 15px 25px;
+    background-color: #f3f3f3;
+    cursor:pointer;
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
+
+  .cardItem {
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.flexBox .board .card .cardItem .profileImage{
+    height: 60px;
+    width: 60px;
+    border-radius: 20%;
+}
+.flexBox .board .card .cardItem .profileName{
+    font-weight: bold;
+    padding-left: 10px;
+    min-width: 150px;
+}
+.flexBox .board .card .cardItem .profileScreenName{
+    padding-left: 10px;
+    min-width: 120px;
+}
+.flexBox .board .card .cardItem .tweetCreateDate{
+    padding-left: 10px;
+    min-width: 100px; 
+}
+.flexBox .board .card .cardItem .tweetText{
+    padding-top: 10px;
+}

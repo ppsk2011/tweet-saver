@@ -1,0 +1,20 @@
+Access Token
+1033146310113652736-kh8hOZ1n31wIRP7xayMdP5IFbRQZUT
+
+Access Token Secret
+w1U9lhEdxwTSyPwq1ZjVrHAGInEje4ih39uYDjFcQxKbL
+
+Bearer token
+AAAAAAAAAAAAAAAAAAAAAKgXSAEAAAAAphwm5YUvDh5tdkTHMd1X4X8yveU%3DIIal0BUA0dEJQYrU6b74XFnFtfxAajMtYJB5YeMF9us0n2eplo
+
+API Key
+E2vNlwEQerYi6ILXYJvl307IV
+
+API Secret Key
+rhQRETvT5XKbXiTHo33BTD16kPq4IwKamwgQ8ITz8q6WZstvXw
+
+App ID
+21501864
+
+app name:
+save-twitter-tweets

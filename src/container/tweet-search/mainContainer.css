@@ -1,0 +1,22 @@
+
+  .main{
+    display: flex;
+    flex-direction:column ;
+    padding: 20px;
+  }
+  .form{
+    display: flex;
+    flex-direction:row ;
+    padding: 60px 0 0 45px;
+  }
+
+  .button{
+    height: 40px;
+    width: 180px;
+    margin: 10px;
+    border-radius: 8px;
+  }
+
+  .savedTweets{
+    padding-left:100px;
+  }
