@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import Board from './Board';
 import Card from './Card';
 import './boardContainer.css'
-import './card.css'
 import { convertDate } from '../../assets/utils';
 const BoardContainer = (props) => {
     const { tweetsList } = props;

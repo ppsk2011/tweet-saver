@@ -11,7 +11,6 @@ const MainContainer = (props) => {
     const handleChange = (e) => {
         e.preventDefault();
         setSearchString(e.target.value);
-        console.log(searchString);
     };
 
     useEffect(() => { }, []);
@@ -22,7 +21,10 @@ const MainContainer = (props) => {
             console.log("Response coming from tweetservice");
             const { data: { statuses }, } = response;
             setTweetsList(statuses)
-        });
+        }).catch(error => {
+            console.error('onRejected function called: ' + error.message);
+            alert(`CORS issue - please use inscecure browser to access the tweets. \nRun chrome by opening CLI in chrome's program  file path : \nchrome.exe --disable-web-security --user-data-dir="C:\\tmpChromeSession`);
+          })
     };
     const clearStorage = () => {
         localStorage.clear();
